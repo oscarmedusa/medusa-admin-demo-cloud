@@ -1,0 +1,1 @@
+{"version":3,"file":"begin-order-edit.d.ts","sourceRoot":"","sources":["../../../src/workflow/order/begin-order-edit.ts"],"names":[],"mappings":"AAAA,MAAM,WAAW,2BAA2B;IAC1C,QAAQ,EAAE,MAAM,CAAA;IAChB,UAAU,CAAC,EAAE,MAAM,CAAA;IACnB,aAAa,CAAC,EAAE,MAAM,CAAA;IACtB,WAAW,CAAC,EAAE,MAAM,CAAA;IACpB,QAAQ,CAAC,EAAE,MAAM,CAAC,MAAM,EAAE,OAAO,CAAC,GAAG,IAAI,CAAA;CAC1C"}

@@ -1,0 +1,1 @@
+{"version":3,"file":"create-return-reasons.d.ts","sourceRoot":"","sources":["../../../src/return-reason/workflows/create-return-reasons.ts"],"names":[],"mappings":"AAAA,OAAO,EACL,0BAA0B,EAC1B,oBAAoB,EACrB,MAAM,2BAA2B,CAAA;AAQlC,MAAM,MAAM,gCAAgC,GAAG;IAC7C,IAAI,EAAE,0BAA0B,EAAE,CAAA;CACnC,CAAA;AAED,eAAO,MAAM,6BAA6B,0BAA0B,CAAA;AACpE;;GAEG;AACH,eAAO,MAAM,2BAA2B,0HAOvC,CAAA"}

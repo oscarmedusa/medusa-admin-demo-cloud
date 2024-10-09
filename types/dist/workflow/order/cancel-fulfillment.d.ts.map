@@ -1,0 +1,1 @@
+{"version":3,"file":"cancel-fulfillment.d.ts","sourceRoot":"","sources":["../../../src/workflow/order/cancel-fulfillment.ts"],"names":[],"mappings":"AAAA,MAAM,WAAW,mCAAmC;IAClD,QAAQ,EAAE,MAAM,CAAA;IAChB,cAAc,EAAE,MAAM,CAAA;IACtB,eAAe,CAAC,EAAE,OAAO,CAAA;IACzB,WAAW,CAAC,EAAE,MAAM,CAAA;CACrB"}

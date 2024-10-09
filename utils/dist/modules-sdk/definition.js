@@ -1,0 +1,33 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.ModuleRegistrationName = exports.Modules = void 0;
+var Modules;
+(function (Modules) {
+    Modules["AUTH"] = "Auth";
+    Modules["CACHE"] = "Cache";
+    Modules["CART"] = "Cart";
+    Modules["CUSTOMER"] = "Customer";
+    Modules["EVENT_BUS"] = "EventBus";
+    Modules["INVENTORY"] = "Inventory";
+    Modules["LINK"] = "LinkModules";
+    Modules["PAYMENT"] = "Payment";
+    Modules["PRICING"] = "Pricing";
+    Modules["PRODUCT"] = "Product";
+    Modules["PROMOTION"] = "Promotion";
+    Modules["SALES_CHANNEL"] = "SalesChannel";
+    Modules["TAX"] = "Tax";
+    Modules["FULFILLMENT"] = "Fulfillment";
+    Modules["STOCK_LOCATION"] = "StockLocation";
+    Modules["USER"] = "User";
+    Modules["WORKFLOW_ENGINE"] = "Workflows";
+    Modules["REGION"] = "Region";
+    Modules["ORDER"] = "Order";
+    Modules["API_KEY"] = "ApiKey";
+    Modules["STORE"] = "Store";
+    Modules["CURRENCY"] = "Currency";
+    Modules["FILE"] = "File";
+    Modules["NOTIFICATION"] = "Notification";
+    Modules["INDEX"] = "Index";
+})(Modules || (exports.Modules = Modules = {}));
+exports.ModuleRegistrationName = Modules;
+//# sourceMappingURL=definition.js.map

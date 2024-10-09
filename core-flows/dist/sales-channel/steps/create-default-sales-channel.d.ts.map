@@ -1,0 +1,1 @@
+{"version":3,"file":"create-default-sales-channel.d.ts","sourceRoot":"","sources":["../../../src/sales-channel/steps/create-default-sales-channel.ts"],"names":[],"mappings":"AAAA,OAAO,EACL,qBAAqB,EAEtB,MAAM,2BAA2B,CAAA;AAIlC,MAAM,WAAW,kCAAkC;IACjD,IAAI,EAAE,qBAAqB,CAAA;CAC5B;AAED,eAAO,MAAM,+BAA+B,iCAAiC,CAAA;AAC7E;;GAEG;AACH,eAAO,MAAM,6BAA6B,+JAoCzC,CAAA"}

@@ -1,0 +1,1 @@
+{"version":3,"file":"detach-locations-from-channels.d.ts","sourceRoot":"","sources":["../../../src/sales-channel/steps/detach-locations-from-channels.ts"],"names":[],"mappings":"AAKA,MAAM,WAAW,yCAAyC;IACxD,KAAK,EAAE;QACL,gBAAgB,EAAE,MAAM,CAAA;QACxB,WAAW,EAAE,MAAM,CAAA;KACpB,EAAE,CAAA;CACJ;AAED,eAAO,MAAM,sCAAsC,yCACX,CAAA;AACxC;;GAEG;AACH,eAAO,MAAM,oCAAoC,0HAiChD,CAAA"}

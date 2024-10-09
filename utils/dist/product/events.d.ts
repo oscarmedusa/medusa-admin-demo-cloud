@@ -1,0 +1,44 @@
+export declare const ProductEvents: {
+    PRODUCT_CREATED: "product.created";
+    PRODUCT_VARIANT_CREATED: "product-variant.created";
+    PRODUCT_OPTION_CREATED: "product-option.created";
+    PRODUCT_TYPE_CREATED: "product-type.created";
+    PRODUCT_TAG_CREATED: "product-tag.created";
+    PRODUCT_CATEGORY_CREATED: "product-category.created";
+} & {
+    PRODUCT_UPDATED: "product.updated";
+    PRODUCT_VARIANT_UPDATED: "product-variant.updated";
+    PRODUCT_OPTION_UPDATED: "product-option.updated";
+    PRODUCT_TYPE_UPDATED: "product-type.updated";
+    PRODUCT_TAG_UPDATED: "product-tag.updated";
+    PRODUCT_CATEGORY_UPDATED: "product-category.updated";
+} & {
+    PRODUCT_DELETED: "product.deleted";
+    PRODUCT_VARIANT_DELETED: "product-variant.deleted";
+    PRODUCT_OPTION_DELETED: "product-option.deleted";
+    PRODUCT_TYPE_DELETED: "product-type.deleted";
+    PRODUCT_TAG_DELETED: "product-tag.deleted";
+    PRODUCT_CATEGORY_DELETED: "product-category.deleted";
+} & {
+    PRODUCT_RESTORED: "product.restored";
+    PRODUCT_VARIANT_RESTORED: "product-variant.restored";
+    PRODUCT_OPTION_RESTORED: "product-option.restored";
+    PRODUCT_TYPE_RESTORED: "product-type.restored";
+    PRODUCT_TAG_RESTORED: "product-tag.restored";
+    PRODUCT_CATEGORY_RESTORED: "product-category.restored";
+} & {
+    PRODUCT_ATTACHED: "product.attached";
+    PRODUCT_VARIANT_ATTACHED: "product-variant.attached";
+    PRODUCT_OPTION_ATTACHED: "product-option.attached";
+    PRODUCT_TYPE_ATTACHED: "product-type.attached";
+    PRODUCT_TAG_ATTACHED: "product-tag.attached";
+    PRODUCT_CATEGORY_ATTACHED: "product-category.attached";
+} & {
+    PRODUCT_DETACHED: "product.detached";
+    PRODUCT_VARIANT_DETACHED: "product-variant.detached";
+    PRODUCT_OPTION_DETACHED: "product-option.detached";
+    PRODUCT_TYPE_DETACHED: "product-type.detached";
+    PRODUCT_TAG_DETACHED: "product-tag.detached";
+    PRODUCT_CATEGORY_DETACHED: "product-category.detached";
+};
+//# sourceMappingURL=events.d.ts.map

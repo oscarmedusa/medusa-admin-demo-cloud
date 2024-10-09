@@ -1,0 +1,1 @@
+{"version":3,"file":"delete-products.d.ts","sourceRoot":"","sources":["../../../src/product/workflows/delete-products.ts"],"names":[],"mappings":"AACA,OAAO,EACL,YAAY,EAMb,MAAM,mCAAmC,CAAA;AAK1C,MAAM,MAAM,2BAA2B,GAAG;IAAE,GAAG,EAAE,MAAM,EAAE,CAAA;CAAE,CAAA;AAE3D,eAAO,MAAM,wBAAwB,oBAAoB,CAAA;AACzD;;GAEG;AACH,eAAO,MAAM,sBAAsB;;KAuClC,CAAA"}

@@ -1,0 +1,1 @@
+{"version":3,"file":"confirm-order-changes.d.ts","sourceRoot":"","sources":["../../../src/order/steps/confirm-order-changes.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,cAAc,EAAE,MAAM,2BAA2B,CAAA;AAI1D,MAAM,MAAM,wBAAwB,GAAG;IACrC,OAAO,EAAE,MAAM,CAAA;IACf,OAAO,EAAE,cAAc,EAAE,CAAA;IACzB,YAAY,CAAC,EAAE,MAAM,CAAA;CACtB,CAAA;AAED;;GAEG;AACH,eAAO,MAAM,mBAAmB,0FAqB/B,CAAA"}

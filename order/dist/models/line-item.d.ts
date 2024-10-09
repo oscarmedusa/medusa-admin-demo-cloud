@@ -1,0 +1,43 @@
+import { BigNumberRawValue, DAL } from "@medusajs/framework/types";
+import { BigNumber } from "@medusajs/framework/utils";
+import { Collection, OptionalProps } from "@mikro-orm/core";
+import OrderLineItemAdjustment from "./line-item-adjustment";
+import OrderLineItemTaxLine from "./line-item-tax-line";
+type OptionalLineItemProps = DAL.ModelDateColumns;
+export default class OrderLineItem {
+    [OptionalProps]?: OptionalLineItemProps;
+    id: string;
+    title: string;
+    subtitle: string | null;
+    thumbnail: string | null;
+    variant_id: string | null;
+    product_id: string | null;
+    product_title: string | null;
+    product_description: string | null;
+    product_subtitle: string | null;
+    product_type: string | null;
+    product_collection: string | null;
+    product_handle: string | null;
+    variant_sku: string | null;
+    variant_barcode: string | null;
+    variant_title: string | null;
+    variant_option_values: Record<string, unknown> | null;
+    requires_shipping: boolean;
+    is_discountable: boolean;
+    is_tax_inclusive: boolean;
+    compare_at_unit_price?: BigNumber | number | null;
+    raw_compare_at_unit_price: BigNumberRawValue | null;
+    unit_price: BigNumber | number;
+    raw_unit_price: BigNumberRawValue;
+    is_custom_price: boolean;
+    tax_lines: Collection<OrderLineItemTaxLine, object>;
+    adjustments: Collection<OrderLineItemAdjustment, object>;
+    metadata: Record<string, unknown> | null;
+    created_at: Date;
+    updated_at: Date;
+    deleted_at: Date | null;
+    onCreate(): void;
+    onInit(): void;
+}
+export {};
+//# sourceMappingURL=line-item.d.ts.map

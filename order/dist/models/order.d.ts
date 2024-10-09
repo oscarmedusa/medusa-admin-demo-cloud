@@ -1,0 +1,40 @@
+import { DAL } from "@medusajs/framework/types";
+import { OrderStatus } from "@medusajs/framework/utils";
+import { Collection, OptionalProps, Rel } from "@mikro-orm/core";
+import OrderAddress from "./address";
+import OrderItem from "./order-item";
+import OrderShipping from "./order-shipping-method";
+import OrderSummary from "./order-summary";
+import OrderTransaction from "./transaction";
+type OptionalOrderProps = "shipping_address" | "billing_address" | DAL.ModelDateColumns;
+export default class Order {
+    [OptionalProps]?: OptionalOrderProps;
+    id: string;
+    display_id: number;
+    region_id: string | null;
+    customer_id: string | null;
+    version: number;
+    sales_channel_id: string | null;
+    status: OrderStatus;
+    is_draft_order: boolean;
+    email: string | null;
+    currency_code: string;
+    shipping_address_id?: string | null;
+    shipping_address?: Rel<OrderAddress> | null;
+    billing_address_id?: string | null;
+    billing_address?: Rel<OrderAddress> | null;
+    no_notification: boolean | null;
+    summary: Collection<OrderSummary, object>;
+    metadata: Record<string, unknown> | null;
+    items: Collection<OrderItem, object>;
+    shipping_methods: Collection<OrderShipping, object>;
+    transactions: Collection<OrderTransaction, object>;
+    created_at: Date;
+    updated_at: Date;
+    deleted_at: Date | null;
+    canceled_at: Date | null;
+    onCreate(): void;
+    onInit(): void;
+}
+export {};
+//# sourceMappingURL=order.d.ts.map

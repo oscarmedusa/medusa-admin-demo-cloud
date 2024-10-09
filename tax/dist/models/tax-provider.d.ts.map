@@ -1,0 +1,1 @@
+{"version":3,"file":"tax-provider.d.ts","sourceRoot":"","sources":["../../src/models/tax-provider.ts"],"names":[],"mappings":"AAAA,OAAO,EAAU,aAAa,EAAwB,MAAM,iBAAiB,CAAA;AAI7E,MAAM,CAAC,OAAO,OAAO,WAAW;IAC9B,CAAC,aAAa,CAAC,CAAC,EAAE,YAAY,CAAA;IAG9B,EAAE,EAAE,MAAM,CAAA;IAMV,UAAU,EAAE,OAAO,CAAO;CAC3B"}

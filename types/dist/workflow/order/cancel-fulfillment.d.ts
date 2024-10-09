@@ -1,0 +1,7 @@
+export interface CancelOrderFulfillmentWorkflowInput {
+    order_id: string;
+    fulfillment_id: string;
+    no_notification?: boolean;
+    canceled_by?: string;
+}
+//# sourceMappingURL=cancel-fulfillment.d.ts.map
