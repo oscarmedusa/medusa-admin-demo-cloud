@@ -1,1 +1,0 @@
-{"version":3,"file":"get-order-detail.d.ts","sourceRoot":"","sources":["../../../src/order/workflows/get-order-detail.ts"],"names":[],"mappings":"AAAA,OAAO,EAAY,cAAc,EAAE,MAAM,2BAA2B,CAAA;AAcpE,eAAO,MAAM,wBAAwB,qBAAqB,CAAA;AAC1D;;GAEG;AACH,eAAO,MAAM,sBAAsB;YAIrB,MAAM,EAAE;cACN,MAAM;sBAoCrB,CAAA"}

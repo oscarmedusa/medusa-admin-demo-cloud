@@ -1,1 +1,0 @@
-{"version":3,"file":"create-customer-groups.d.ts","sourceRoot":"","sources":["../../../src/customer-group/workflows/create-customer-groups.ts"],"names":[],"mappings":"AAAA,OAAO,EACL,gBAAgB,EAChB,sBAAsB,EACvB,MAAM,2BAA2B,CAAA;AAQlC,MAAM,MAAM,iCAAiC,GAAG;IAC9C,aAAa,EAAE,sBAAsB,EAAE,CAAA;CACxC,CAAA;AAED,eAAO,MAAM,8BAA8B,2BAA2B,CAAA;AACtE;;GAEG;AACH,eAAO,MAAM,4BAA4B,uHAOxC,CAAA"}

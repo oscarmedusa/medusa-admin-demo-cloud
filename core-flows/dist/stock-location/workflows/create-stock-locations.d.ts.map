@@ -1,1 +1,0 @@
-{"version":3,"file":"create-stock-locations.d.ts","sourceRoot":"","sources":["../../../src/stock-location/workflows/create-stock-locations.ts"],"names":[],"mappings":"AAMA,OAAO,EAAE,wBAAwB,EAAE,MAAM,2BAA2B,CAAA;AAGpE,MAAM,WAAW,iCAAiC;IAChD,SAAS,EAAE,wBAAwB,EAAE,CAAA;CACtC;AAED,eAAO,MAAM,8BAA8B,oCAAoC,CAAA;AAC/E;;GAEG;AACH,eAAO,MAAM,4BAA4B,2JAKxC,CAAA"}

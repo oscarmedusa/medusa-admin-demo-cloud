@@ -1,1 +1,0 @@
-{"version":3,"file":"validate-token.d.ts","sourceRoot":"","sources":["../../../../src/api/auth/utils/validate-token.ts"],"names":[],"mappings":"AAAA,OAAO,EAEL,kBAAkB,EAClB,aAAa,EACb,cAAc,EACf,MAAM,0BAA0B,CAAA;AAMjC,eAAO,MAAM,aAAa,cAEjB,aAAa,OACb,cAAc,QACb,kBAAkB,mCAmD3B,CAAA"}

@@ -1,1 +1,0 @@
-{"version":3,"file":"delete-promotions.d.ts","sourceRoot":"","sources":["../../../src/promotion/workflows/delete-promotions.ts"],"names":[],"mappings":"AAAA,OAAO,EAGL,YAAY,EAEb,MAAM,mCAAmC,CAAA;AAG1C,MAAM,MAAM,6BAA6B,GAAG;IAAE,GAAG,EAAE,MAAM,EAAE,CAAA;CAAE,CAAA;AAE7D,eAAO,MAAM,0BAA0B,sBAAsB,CAAA;AAC7D;;GAEG;AACH,eAAO,MAAM,wBAAwB;;KAYpC,CAAA"}

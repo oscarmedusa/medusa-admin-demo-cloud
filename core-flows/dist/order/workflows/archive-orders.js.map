@@ -1,1 +1,0 @@
-{"version":3,"file":"archive-orders.js","sourceRoot":"","sources":["../../../src/order/workflows/archive-orders.ts"],"names":[],"mappings":";;;AACA,qEAI0C;AAC1C,oCAA4C;AAM/B,QAAA,sBAAsB,GAAG,wBAAwB,CAAA;AAC9D;;GAEG;AACU,QAAA,oBAAoB,GAAG,IAAA,8BAAc,EAChD,8BAAsB,EACtB,CACE,KAA+C,EACjB,EAAE;IAChC,OAAO,IAAI,gCAAgB,CAAC,IAAA,yBAAiB,EAAC,KAAK,CAAC,CAAC,CAAA;AACvD,CAAC,CACF,CAAA"}

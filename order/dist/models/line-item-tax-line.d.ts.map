@@ -1,1 +1,0 @@
-{"version":3,"file":"line-item-tax-line.d.ts","sourceRoot":"","sources":["../../src/models/line-item-tax-line.ts"],"names":[],"mappings":"AAIA,OAAO,EAML,GAAG,EACJ,MAAM,iBAAiB,CAAA;AACxB,OAAO,aAAa,MAAM,aAAa,CAAA;AACvC,OAAO,OAAO,MAAM,YAAY,CAAA;AAQhC,MAAM,CAAC,OAAO,OAAO,oBAAqB,SAAQ,OAAO;IAKvD,IAAI,EAAE,GAAG,CAAC,aAAa,CAAC,CAAA;IAUxB,OAAO,EAAE,MAAM,CAAA;IAGf,QAAQ;IAMR,MAAM;CAIP"}
