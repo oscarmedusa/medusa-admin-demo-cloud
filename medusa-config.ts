@@ -1,11 +1,11 @@
-import { loadEnv, defineConfig, Modules } from '@medusajs/framework/utils'
+import { loadEnv, defineConfig, Modules } from "@medusajs/framework/utils";
 
-loadEnv(process.env.NODE_ENV!, process.cwd())
+loadEnv(process.env.NODE_ENV!, process.cwd());
 
 export default defineConfig({
- admin: {
-  backendUrl: "https://admin-demo.medusajs.app"
- },
+  admin: {
+    backendUrl: "https://admin-demo.medusajs.app",
+  },
   projectConfig: {
     databaseUrl: process.env.DATABASE_URL,
     http: {
@@ -14,11 +14,12 @@ export default defineConfig({
       authCors: process.env.AUTH_CORS!,
       jwtSecret: process.env.JWT_SECRET || "supersecret",
       cookieSecret: process.env.COOKIE_SECRET || "supersecret",
-    }
+    },
   },
   modules: {
     [Modules.FILE]: {
       resolve: "@medusajs/medusa/file",
+      key: Modules.FILE,
       options: {
         providers: [
           {
@@ -30,11 +31,11 @@ export default defineConfig({
               secret_access_key: process.env.S3_SECRET_ACCESS_KEY,
               region: process.env.S3_REGION,
               bucket: process.env.S3_BUCKET,
-              endpoint: process.env.S3_ENDPOINT
+              endpoint: process.env.S3_ENDPOINT,
             },
           },
         ],
       },
     },
-  }
-})
+  },
+});
